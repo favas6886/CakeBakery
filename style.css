@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(./images/backkk1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    font-weight: 600;
+}
+
+nav a {
+    color: #FDF5BA;
+    text-decoration: none;
+    padding: 50px;
+    display: block;
+    letter-spacing: 1px;
+    word-break: 2px;
+    font-size: 20px;
+    font-family: "Pacifico", system-ui;
+}
+
+nav a:hover {
+    text-shadow: 3px 3px 8px;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+.logo {
+    cursor: pointer;
+    width: 120px;
+}
+
+header {
+    background-image: url(./images/background7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 0px;
+    padding: 70px;
+    color: #FDF5BA;
+    margin-top: -70px;
+
+}
+
+.header-content h1 {
+    font-family: "Italiana", sans-serif;
+    padding: 30px;
+    font-size: 60px;
+}
+
+.header-content p {
+    font-weight: 600;
+    font-size: large;
+    font-family: "Satisfy", cursive;
+
+}
+
+.header-image {
+    text-align: center;
+    z-index: 2;
+    margin-top: 0px;
+    position: sticky;
+
+
+
+}
+
+.content {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.sub-content {
+    width: 500px;
+    margin-top: 50px;
+    color: #FDF5BA;
+
+
+}
+
+.sub-content h1 {
+    font-family: "Kaushan Script", cursive;
+}
+
+.sub-content p {
+    font-family: "Satisfy", cursive;
+
+}
+
+/*------------------------------------------- gallery--------------------------- */
+#gallery {
+    margin-left: 150px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+
+
+}
+
+.gallery {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px #050505;
+    cursor: pointer;
+}
+
+.gallery img {
+    border-radius: 10px;
+}
+
+.discription {
+    font-family: "Satisfy", cursive;
+    padding: 4px;
+    color: #FDF5BA;
+
+}
+
+.gallery:hover {
+    box-shadow: 1px 1px 11px #FDF5BA;
+}
+
+/*------------------------------------ cake image------------------------------------------------------------ */
+footer {
+    background-image: url(./images/backkk3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.cake-image img {
+    width: 170px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#cakes-image {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 100px;
+
+
+}
+
+#footer-content {
+    display: grid;
+
+
+    grid-template-columns: repeat(3, 500px);
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+
+
+.follow h2 {
+    margin-left: 70px;
+    font-family: "Kaushan Script", cursive;
+}
+
+.follow-icon {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 130px);
+
+}
+
+.icon a i {
+    color: #694534;
+
+    font-size: xx-large;
+    text-shadow: 1px 1px 11px black;
+}
+
+.icon a i:hover {
+    text-shadow: 4px 4px 8px #FDF5BA;
+}
+
+.contact h2 {
+    font-family: "Kaushan Script", cursive;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.info {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.info i {
+    font-size: x-large;
+    color: #694534;
+    text-shadow: 1px 1px 11px black;
+
+
+}
+
+.info span {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+h2 span {
+    color: #7c736f;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #694534;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FDF5BA;
+    border-radius: 10px;
+}
